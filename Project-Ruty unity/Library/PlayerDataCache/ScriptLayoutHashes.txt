@@ -5,6 +5,7 @@ SceneListBegin?
 Assets/Scenes/0_Open.unity
 Assets/Scenes/01_exop_1.unity
 Assets/Scenes/01_expo_2.unity
+Assets/Scenes/01_expo_3.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -149,3 +150,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.opening_C
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.expo01
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.expo_2_arr_r

@@ -113,6 +113,53 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &157506846 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1091600247092362, guid: c1bad6503c92f4206997d7d4307ff3e2,
+    type: 2}
+  m_PrefabInternal: {fileID: 644396617}
+--- !u!1001 &644396617
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4828498015996666, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 3.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828498015996666, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -2.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828498015996666, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828498015996666, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828498015996666, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828498015996666, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828498015996666, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4828498015996666, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: c1bad6503c92f4206997d7d4307ff3e2, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1158466377
 GameObject:
   m_ObjectHideFlags: 0
@@ -199,6 +246,7 @@ GameObject:
   - component: {fileID: 1613696589}
   - component: {fileID: 1613696588}
   - component: {fileID: 1613696592}
+  - component: {fileID: 1613696593}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -364,6 +412,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1613696593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1613696587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d2650342d974736bc800add7e5e876, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arr1: {fileID: 157506846}
+  otherClip: {fileID: 8300000, guid: 28f646b7460654d01898154c72a73d3e, type: 3}
 --- !u!1 &1924350052
 GameObject:
   m_ObjectHideFlags: 0
