@@ -59,7 +59,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\arr.cs" />
+    <Compile Include="Assets\code\expo01.cs" />
+    <Compile Include="Assets\code\opening_C.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/omeralon/Documents/GitHub/Project-Ruty/Project-Ruty unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
