@@ -59,10 +59,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\a_00.cs" />
+    <Compile Include="Assets\a_01.cs" />
+    <Compile Include="Assets\a_02.cs" />
+    <Compile Include="Assets\a_03.cs" />
+    <Compile Include="Assets\b_01.cs" />
+    <Compile Include="Assets\b_02.cs" />
+    <Compile Include="Assets\b_03.cs" />
+    <Compile Include="Assets\c_01.cs" />
+    <Compile Include="Assets\c_02.cs" />
     <Compile Include="Assets\code\expo_2_arr_r.cs" />
     <Compile Include="Assets\code\expo01.cs" />
     <Compile Include="Assets\code\expo02.cs" />
     <Compile Include="Assets\code\opening_C.cs" />
+    <Compile Include="Assets\d_01.cs" />
+    <Compile Include="Assets\d_02.cs" />
+    <Compile Include="Assets\e_01.cs" />
+    <Compile Include="Assets\f_01.cs" />
+    <Compile Include="Assets\f_02.cs" />
+    <Compile Include="Assets\f_03.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/omeralon/Documents/GitHub/Project-Ruty/Project-Ruty unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

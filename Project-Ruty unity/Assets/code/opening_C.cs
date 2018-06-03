@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class opening_C : MonoBehaviour {
+public class a_00 : MonoBehaviour {
     static string nextSecene = "01_exop_1";
 	// Use this for initialization
 	void Start () {
