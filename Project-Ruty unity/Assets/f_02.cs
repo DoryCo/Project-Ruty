@@ -8,13 +8,14 @@ public class f_02 : MonoBehaviour
     public GameObject wind;
     public GameObject bed;
 
-
+    private float start_time;
     AudioSource audioSource;
 
 
     // Use this for initialization
     void Start()
     {
+        start_time = Time.time;
         wind.gameObject.SetActive(false);
         bed.gameObject.SetActive(false);
 
@@ -26,7 +27,7 @@ public class f_02 : MonoBehaviour
     void Update()
     {
 
-        if (!audioSource.isPlaying)
+        if (!audioSource.isPlaying && (Time.time - start_time > 1))
         {
             wind.gameObject.SetActive(true);
             bed.gameObject.SetActive(true);

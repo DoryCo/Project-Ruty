@@ -9,6 +9,7 @@ public class b_03 : MonoBehaviour
     public GameObject bowl_m;
     public GameObject bowl_l;
 
+    private float start_time;
 
     AudioSource audioSource;
 
@@ -20,7 +21,7 @@ public class b_03 : MonoBehaviour
         bowl_m.gameObject.SetActive(false);
         bowl_l.gameObject.SetActive(false);
 
-
+        start_time = Time.time;
         audioSource = GetComponent<AudioSource>();
 
     }
@@ -29,7 +30,7 @@ public class b_03 : MonoBehaviour
     void Update()
     {
 
-        if (!audioSource.isPlaying)
+        if (!audioSource.isPlaying && (Time.time - start_time > 1))
         {
             bowl_s.gameObject.SetActive(true);
             bowl_m.gameObject.SetActive(true);

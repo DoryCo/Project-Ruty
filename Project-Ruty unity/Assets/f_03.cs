@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class a_01 : MonoBehaviour
+public class f_03 : MonoBehaviour
 {
-    static string nextSecene = "a_04";
+    static string nextSecene = "f_04";
 
     AudioSource audioSource;
+    private float start_time;
 
     // Use this for initialization
     void Start()
     {
-
+        start_time = Time.time;
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -21,7 +22,7 @@ public class a_01 : MonoBehaviour
     {
 
 
-        if (!audioSource.isPlaying)
+        if (!audioSource.isPlaying && (Time.time - start_time > 1))
         {
             SceneManager.LoadScene(nextSecene);
         }

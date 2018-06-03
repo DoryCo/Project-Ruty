@@ -9,6 +9,7 @@ public class d_02 : MonoBehaviour
     public GameObject bed_m;
     public GameObject bed_l;
 
+    private float start_time;
 
     AudioSource audioSource;
 
@@ -20,6 +21,7 @@ public class d_02 : MonoBehaviour
         bed_m.gameObject.SetActive(false);
         bed_l.gameObject.SetActive(false);
 
+        start_time = Time.time;
 
         audioSource = GetComponent<AudioSource>();
 
@@ -29,7 +31,7 @@ public class d_02 : MonoBehaviour
     void Update()
     {
 
-        if (!audioSource.isPlaying)
+        if (!audioSource.isPlaying && (Time.time - start_time > 1))
         {
             bed_s.gameObject.SetActive(true);
             bed_m.gameObject.SetActive(true);
