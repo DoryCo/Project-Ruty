@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{D29FA4BC-D945-7F17-A44D-957F65AC5015}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/f_02.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/b_03.cs">
     <Files>
       <File FileName="Assets/code/expo_2_arr_r.cs" Line="4" Column="34" />
       <File FileName="Assets/code/expo02.cs" Line="25" Column="52" />

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class c_02 : MonoBehaviour
 {
-    static string nextSecene = "b_03_a";
+    static string nextSecene = "e_01";
 
     private float start_time;
 

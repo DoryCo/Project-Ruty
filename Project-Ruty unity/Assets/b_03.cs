@@ -8,6 +8,7 @@ public class b_03 : MonoBehaviour
     public GameObject bowl_s;
     public GameObject bowl_m;
     public GameObject bowl_l;
+    public GameObject marked;
 
     private float start_time;
 
@@ -20,6 +21,7 @@ public class b_03 : MonoBehaviour
         bowl_s.gameObject.SetActive(false);
         bowl_m.gameObject.SetActive(false);
         bowl_l.gameObject.SetActive(false);
+        marked.gameObject.SetActive(false);
 
         start_time = Time.time;
         audioSource = GetComponent<AudioSource>();
@@ -35,6 +37,7 @@ public class b_03 : MonoBehaviour
             bowl_s.gameObject.SetActive(true);
             bowl_m.gameObject.SetActive(true);
             bowl_l.gameObject.SetActive(true);
+            marked.gameObject.SetActive(true);
 
         }
 

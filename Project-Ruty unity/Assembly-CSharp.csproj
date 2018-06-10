@@ -68,7 +68,6 @@
     <Compile Include="Assets\b_01.cs" />
     <Compile Include="Assets\b_02.cs" />
     <Compile Include="Assets\b_03.cs" />
-    <Compile Include="Assets\b_03_a.cs" />
     <Compile Include="Assets\b_03_g.cs" />
     <Compile Include="Assets\b_03_m.cs" />
     <Compile Include="Assets\b_03_s.cs" />
