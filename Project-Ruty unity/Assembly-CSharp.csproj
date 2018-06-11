@@ -80,6 +80,8 @@
     <Compile Include="Assets\d_01.cs" />
     <Compile Include="Assets\d_02.cs" />
     <Compile Include="Assets\d_02_all.cs" />
+    <Compile Include="Assets\d_03.cs" />
+    <Compile Include="Assets\d_04.cs" />
     <Compile Include="Assets\e_01.cs" />
     <Compile Include="Assets\e_02.cs" />
     <Compile Include="Assets\e_02_b.cs" />
@@ -90,6 +92,24 @@
     <Compile Include="Assets\f_02.cs" />
     <Compile Include="Assets\f_02_b.cs" />
     <Compile Include="Assets\f_03.cs" />
+    <Compile Include="Assets\g_01.cs" />
+    <Compile Include="Assets\g_02.cs" />
+    <Compile Include="Assets\g_03.cs" />
+    <Compile Include="Assets\g_04.cs" />
+    <Compile Include="Assets\g_04_all.cs" />
+    <Compile Include="Assets\h_01.cs" />
+    <Compile Include="Assets\h_02.cs" />
+    <Compile Include="Assets\h_03.cs" />
+    <Compile Include="Assets\h_04.cs" />
+    <Compile Include="Assets\h_05.cs" />
+    <Compile Include="Assets\i_01.cs" />
+    <Compile Include="Assets\i_02.cs" />
+    <Compile Include="Assets\i_02_all.cs" />
+    <Compile Include="Assets\j_01.cs" />
+    <Compile Include="Assets\j_02.cs" />
+    <Compile Include="Assets\k_01.cs" />
+    <Compile Include="Assets\k_02.cs" />
+    <Compile Include="Assets\k_03.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/omeralon/Documents/GitHub/Project-Ruty/Project-Ruty unity/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

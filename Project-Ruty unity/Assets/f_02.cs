@@ -7,6 +7,7 @@ public class f_02 : MonoBehaviour
 
     public GameObject wind;
     public GameObject bed;
+    public GameObject marked;
 
     private float start_time;
     AudioSource audioSource;
@@ -18,6 +19,7 @@ public class f_02 : MonoBehaviour
         start_time = Time.time;
         wind.gameObject.SetActive(false);
         bed.gameObject.SetActive(false);
+        marked.gameObject.SetActive(false);
 
         audioSource = GetComponent<AudioSource>();
 
@@ -31,7 +33,7 @@ public class f_02 : MonoBehaviour
         {
             wind.gameObject.SetActive(true);
             bed.gameObject.SetActive(true);
-
+            marked.gameObject.SetActive(true);
         }
 
     }

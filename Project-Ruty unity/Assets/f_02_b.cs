@@ -30,7 +30,7 @@ public class f_02_b : MonoBehaviour
         if (hit)
         {
             print(hit.collider.gameObject.name);
-            if (hit.collider.gameObject.name == "e_02_b")
+            if (hit.collider.gameObject.name == "f_02_b")
             {
                 SceneManager.LoadScene(nextSecene);
             }

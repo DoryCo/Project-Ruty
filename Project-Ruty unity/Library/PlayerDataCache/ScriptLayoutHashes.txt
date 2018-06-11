@@ -1,6 +1,6 @@
 OSXStandalone
 PlayerPath?
-/Users/omeralon/Documents/GitHub/Project-Ruty/Project-Ruty unity/idk2.app
+/Users/omeralon/Documents/GitHub/Project-Ruty/Project-Ruty unity/new.app
 SceneListBegin?
 Assets/a_00.unity
 Assets/a_01.unity
@@ -22,6 +22,22 @@ Assets/f_01.unity
 Assets/f_02.unity
 Assets/f_03.unity
 Assets/f_04.unity
+Assets/g_01.unity
+Assets/g_02.unity
+Assets/g_03.unity
+Assets/g_04.unity
+Assets/h_01.unity
+Assets/h_02.unity
+Assets/h_03.unity
+Assets/h_04.unity
+Assets/h_05.unity
+Assets/i_01.unity
+Assets/i_02.unity
+Assets/j_01.unity
+Assets/j_02.unity
+Assets/k_01.unity
+Assets/k_02.unity
+Assets/k_03.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.c_01
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.b_03_s
@@ -108,7 +124,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.e_02_w
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.e_02_b
 76196d9c66f16cd9ddaeb631fd39917b Assembly-CSharp.dll:.expo02
-74229031c0ef9bd1ec47da34c02d29e8 Assembly-CSharp.dll:.f_01
+837a70b2e19730c9fd3a71fd5f2c1529 Assembly-CSharp.dll:.f_01
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 13bdb7c23815c33a33b37b0ba8dd39be UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -147,7 +163,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.a_03_l
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.b_03_m
-4de47abc953a17b31c67a352439b361e Assembly-CSharp.dll:.b_03
+d7bb8935e17681dcf64830ce4e0661d6 Assembly-CSharp.dll:.b_03
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.b_03_g
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.opening_C
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -164,7 +180,6 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.b_03_a
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.e_03
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.b_02
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -190,9 +205,29 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.b_01
 74229031c0ef9bd1ec47da34c02d29e8 Assembly-CSharp.dll:.e_02
-12fba707ea0cf4e5056f2b212aa6ed9a Assembly-CSharp.dll:.d_02
+1a6f0eb1f414408ec1aa981774010f78 Assembly-CSharp.dll:.d_02
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.expo_2_arr_r
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.e_01
-74229031c0ef9bd1ec47da34c02d29e8 Assembly-CSharp.dll:.f_02
+837a70b2e19730c9fd3a71fd5f2c1529 Assembly-CSharp.dll:.f_02
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.expo01
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.c_02
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.d_03
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.d_04
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.g_01
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.g_02
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.g_03
+6c0f756219db5b28c3973a52f0a71958 Assembly-CSharp.dll:.g_04
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.g_04_all
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.h_01
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.h_02
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.h_03
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.h_04
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.h_05
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.i_01
+c6ce90a9b6f593c1d1f398cebb671593 Assembly-CSharp.dll:.i_02
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.i_02_all
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.k_01
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.k_02
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.k_03
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.j_01
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.j_02

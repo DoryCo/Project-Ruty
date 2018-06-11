@@ -6,7 +6,9 @@ using UnityEngine.SceneManagement;
 public class d_02_all : MonoBehaviour
 {
 
-    static string nextSecene = "e_01";
+    static string nextSecene_S = "e_01";
+    static string nextSecene_M = "d_03";
+    static string nextSecene_L = "d_04";
 
     // Use this for initialization
     void Start()
@@ -30,9 +32,17 @@ public class d_02_all : MonoBehaviour
         if (hit)
         {
             print(hit.collider.gameObject.name);
-            if ((hit.collider.gameObject.name == "d_02_s") || (hit.collider.gameObject.name == "d_02_m") || (hit.collider.gameObject.name == "d_02_l"))
+            if (hit.collider.gameObject.name == "d_02_s")
             {
-                SceneManager.LoadScene(nextSecene);
+                SceneManager.LoadScene(nextSecene_S);
+            }
+            if (hit.collider.gameObject.name == "d_02_m")
+            {
+                SceneManager.LoadScene(nextSecene_M);
+            }
+            if (hit.collider.gameObject.name == "d_02_l")
+            {
+                SceneManager.LoadScene(nextSecene_L);
             }
         }
     }

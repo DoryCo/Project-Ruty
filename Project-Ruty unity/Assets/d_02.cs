@@ -8,6 +8,7 @@ public class d_02 : MonoBehaviour
     public GameObject bed_s;
     public GameObject bed_m;
     public GameObject bed_l;
+    public GameObject marked;
 
     private float start_time;
 
@@ -20,6 +21,7 @@ public class d_02 : MonoBehaviour
         bed_s.gameObject.SetActive(false);
         bed_m.gameObject.SetActive(false);
         bed_l.gameObject.SetActive(false);
+        marked.gameObject.SetActive(false);
 
         start_time = Time.time;
 
@@ -36,7 +38,7 @@ public class d_02 : MonoBehaviour
             bed_s.gameObject.SetActive(true);
             bed_m.gameObject.SetActive(true);
             bed_l.gameObject.SetActive(true);
-
+            marked.gameObject.SetActive(true);
         }
 
     }
